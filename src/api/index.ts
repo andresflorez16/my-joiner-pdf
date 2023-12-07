@@ -2,7 +2,7 @@ import axios from 'axios'
 import type { Files } from '../types'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api'
+  baseURL: 'https://my-joiner-pdf-service-dev-zdpr.4.us-1.fl0.io/api'
 })
 
 export async function joiner({ files } : { files: Files }) {
